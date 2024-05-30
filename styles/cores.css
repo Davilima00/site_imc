@@ -1,0 +1,28 @@
+:root {
+    --cor1: #253659;
+    --cor2: azure;
+    --cor3: #04BF9D;
+    --cor4: #F28157;
+    --cor5: #BF665E;
+    --cor6: #fff;
+}
+
+span {
+    color: var(--cor5);
+}
+
+.cor-tp {
+    color: var(--cor4);
+}
+
+.cor-tg {
+    color: var(--cor5);
+}
+
+#cor-respota {
+    color: var(--cor1);
+}
+
+.nome-footer {
+    color: var(--cor2);
+}

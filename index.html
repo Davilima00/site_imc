@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>IMC</title>
+</head>
+<body>
+
+    <header>
+        <h1>Você ja viu seu IMC?</h1>
+    </header>
+
+    <main> <!-- main vai ocupar toda a tela  -->
+
+
+        <section id="texto"> <!-- essa section tem text0 -->
+            <div>
+                <h2>Você sabe o seu <span>IMC</span>?</h2>
+                <p>IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.</p>
+            </div>
+        </section>
+
+
+        <section id="calculo"> <!-- essa sction tem os inputs -->
+            <div>
+                <h2><span>Calculo</span></h2>
+
+                <p class="cor-tp">Digite sua altura</p>
+
+                <input type="text" name="altura" id="altura" placeholder="metros">
+
+                <p class="cor-tp">Digite seu peso</p>
+
+                <input type="text" name="peso" id="peso" placeholder="kilogramas">
+                
+                <div class="botoes">
+                    <button id="limpar">Limpar</button>
+                    <button id="botao" >Calcular</button>
+                </div>
+            </div>
+        </section> <!-- essa tem o resultado  -->
+
+
+        <section id="resultado">
+            <h2 class="cor-tg">Veja a interpretação</h2>
+
+            <div class="bloco-principal">
+                <div class="bloco-respota">
+                    <h3>Seu <span id="cor-respota">IMC</span> foi:</h3>
+
+                    <p id="resultado-imc"></p>
+                </div>
+
+                <div class="bloco-respota">
+                    <h3>CLASSIFICAÇÃO</h3>
+
+                    <p id="resultado-classificacao"></p>
+                </div>
+
+                <div class="bloco-respota">
+                    <h3>OBESIDADE (GRAU)</h3>
+
+                    <p id="resultado-grau"></p>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>desenvolvido por <span class="nome-footer">Davi Alves de Lima </span></p>
+    </footer>
+    
+
+
+    <script src="scripts/fomater-input.js"></script>
+    <script src="scripts/script.js"></script>
+
+</body>
+</html>
+
+
